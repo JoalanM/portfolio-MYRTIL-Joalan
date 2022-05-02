@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-MYRTIL Joalan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul>
+        <li><a  href="#acceuil">Acceuil</a></li>
+        <li><a  href="#compétances">Compétances</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <!-- <li><a href="#contact">Contact</a></li> -->
+      </ul>
+    <header id="acceuil">
+        
+        <div class="wrapper">
+            <div class="content">
+                <h1>Joalan MYRTIL</h1>
+                <p class="subtitle">Concepteur développeur</p>
+            </div>
+        </div>
+    </header>
+    <main id="compétances">
+        <h3 id="me">COMPÉTANCES</h3>
+        <p>Elles sont en progression permanente; <br> pour moi le plus de ce métier est qu'on doit être à jour sur toutes les nouvelles technologies, <br> d'autant plus étant curieux et passionné.</p>
+
+        <div class="row">
+            <div class="comp">
+                <h4>Programmation</h4>
+                <label for="php">PHP</label> <br> <progress id="php" max="100" value="85"> 85% </progress> <br>
+                <label for="html">HTML / CSS</label> <br> <progress id="html" max="100" value="80"> 80% </progress> <br>
+                <label for="Python">Python</label> <br> <progress id="Python" max="100" value="70"> 70% </progress> <br>
+                <label for="MySql">MySql</label> <br> <progress id="MySql" max="100" value="70"> 70% </progress> <br>
+                <label for="node">Node-Red</label> <br> <progress id="node" max="100" value="63"> 63% </progress> <br>
+                
+                <label for="java">JavaScript</label> <br> <progress id="java" max="100" value="60"> 60% </progress> <br>
+                <label for="c">C / C++</label> <br> <progress id="c" max="100" value="55"> 55% </progress> <br>
+
+                <h4>Système / Réseaux / Hardware</h4>
+                <label for="windows">Windows</label> <br> <progress id="windows" max="100" value="95"> 95% </progress> <br>
+                <label for="Photoshop">Photoshop</label> <br> <progress id="Photoshop" max="100" value="80"> 80% </progress> <br>
+                <label for="Office">Office</label> <br> <progress id="Office" max="100" value="70"> 70% </progress> <br>
+                <label for="Cisco">Cisco</label> <br> <progress id="Cisco" max="100" value="68"> 68/% </progress> <br>
+                <label for="linux">Linux / Ubuntu</label> <br> <progress id="linux" max="100" value="65"> 65% </progress> <br>
+            </div>
+            <div class="comp">
+                <img src="cv.png" alt="cv" width="50%"><br>
+                <button class="button"><a href="cv.pdf">Télécharger le cv</a></button>
+            </div>
+        </div>
+        
+    </main>
+    <footer id="portfolio">
+        <h3 id="me">PORTFOLIO</h3>
+        <p id="soustitre">Ci-dessous, quelques exemples de réalisation effectuée durant ma formation, stage et projet personnel : </p>
+        <div class="row">
+            <div class="comp" id="info" >
+                <p id="texte">Dans le cadre du stage effectué en fin de première année, j'ai dû effectuer la conception complète du site pour la société, et effectuer son hébergement.</p>
+            </div>
+            
+    
+            <div class="comp">
+                <p id="texte">Portfolio, permettant de partager mes compétences, mais également mes projets.</p>
+            </div>
+    
+            <div class="comp">
+                <p id="texte">Projet effectué en première année de BTS, Logiciel réaliser en C++ depuis Qt. <br>L'objectif de ce projet est d'effectuer une connexion depuis une interface permettant à un utilisateur d'observer divers résultats d'une station météo depuis un fichier.txt</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="comp" id="info" >
+                <a href="https://kreojardin.fr/"><img src="logo.png" width="50%"></a>
+            </div>
+            
+    
+            <div class="comp">
+                <a href="#"><img src="portfolio.png" alt="img" width="50%"></a>
+            </div>
+    
+            <div class="comp">
+                <a href="https://github.com/JoalanM/Portfolio/tree/main/TP_LOGIN1"><img src="meteo.jpg" alt="meteo" width="50%"></a>
+            </div>
+        </div>
+
+         <div class="row">
+            <div class="comp" id="info" >
+                <p id="texte">Dans le cadre de ma formation, je suis en cours de réalisation d'un système IoT "compteur d'eau connecté". <br>Dans ce projet, j'ai réalisé une API REST, une Base de données, des scripts, un Dashboard ainsi que la programmation d'un microcontrôleur.</p>
+            </div>
+            
+    
+            <div class="comp">
+                <p id="texte">Projet réalisé en Python depuis PySide 6. <br>Programme qui permet de récupérer les informations système de l'ordinateur tel que le nom, les adresses IP WAN et LAN l'adresse MAC et le système d'exploitation, et de les afficher sur une interface graphique. </p>
+            </div>
+    
+            <div class="comp">
+                <!-- <p>Projet effectué en premiere année de BTS, Logiciel coder en C++ depuis Qt. <br>L'objectif de ce projet est d'effectuée une connexion depuis une interface permetant à un utilisateur d'observé divers réultat d'une station météo depuis un fichier.txt</p> -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="comp" id="info" >
+                <a href="https://github.com/JoalanM/CompteurEau"><img src="eau.jpg" width="50%"></a>
+            </div>
+            
+    
+            <div class="comp">
+                <a href="https://github.com/JoalanM/Portfolio/blob/main/PySide6/Info_pc.py"><img src="info.png" alt="img" width="35%"></a>
+            </div>
+    
+            <div class="comp">
+                <!-- <a href="https://github.com/JoalanM/Portfolio/tree/main/TP_LOGIN1"><img src="meteo.jpg" alt="meteo" width="45%"></a> -->
+            </div>
+        </div>
+        
+
+    </footer>
+</body>
+</html>
