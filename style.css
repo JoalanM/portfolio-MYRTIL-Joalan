@@ -13,7 +13,7 @@ header, body, html{
 }
 
 header{
-    background: url("../portfolio/background1.jpg") no-repeat;
+    background: url("background1.jpg") no-repeat;
     background-size: cover;
     color: white;
 }
